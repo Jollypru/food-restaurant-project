@@ -130,3 +130,74 @@ opacity: 0.6;
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
 }
+#about{
+    display: flex;
+    height: 450px;
+    background: rgb(255, 255, 255);
+    
+    justify-content: space-around;
+    
+}
+#about .image{
+    max-width: 640px;
+    height: 450px;
+    /* position: absolute; */
+}
+#about .image img{
+    width: 100%;
+}
+.social{
+    max-width: 640px;
+}
+.social .social-container{
+    width: 540px;
+}
+ .social .social-container .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 16px;
+}
+.social .social-container .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-bottom: 32px;
+}
+.social .social-container .follow{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 20px 7px 20px 7px;
+}
+.fa-facebook{
+    background: #3B5998;
+  color: white;
+  
+    position: absolute;
+    width: 14.72px;
+    height: 31.39px;
+    left: 12.81px;
+    top: 8.61px;
+}
+.icon .fa-facebook{
+    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%);
+}
